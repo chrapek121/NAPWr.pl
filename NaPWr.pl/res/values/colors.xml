@@ -1,0 +1,7 @@
+<resources>
+    <!-- Splash screen background color -->
+    <color name="splashscreen_background">#ffffff</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+</resources>

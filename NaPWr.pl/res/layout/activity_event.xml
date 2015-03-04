@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:alpha="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/example_plakat_mobile_3" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentRight="true"
+                android:alpha="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/blend_3"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignBottom="@+id/imageView2"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp" >
+
+                <TextView
+                    android:id="@+id/text_event_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/text_event_adres"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Wybory królewskiej Pary PWr w ramach Qlturaliów 2014"
+                    android:textColor="#ffffff"
+                    android:textSize="21sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/text_event_adres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:linksClickable="false"
+                    android:singleLine="false"
+                    android:text="GDZIE:  "
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/event_place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginBottom="8dp"
+                    android:layout_toRightOf="@+id/text_event_adres"
+                    android:linksClickable="false"
+                    android:singleLine="false"
+                    android:text="BUDYNEK C-13, SALA 2.17"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/event_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="17:00"
+                    android:textColor="#fff"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/event_like_star"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_toLeftOf="@+id/event_google_plus"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1sp"
+                android:src="@drawable/empty_star" />
+            
+            <ImageView
+                android:id="@+id/event_facebook"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1sp"
+                android:src="@drawable/fb" />
+
+            <ImageView
+                android:id="@+id/event_google_plus"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_toLeftOf="@+id/event_facebook"
+                android:layout_alignParentTop="true"
+                android:layout_margin="1sp"
+                android:src="@drawable/gp" />
+
+            
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relativeLayout" >
+
+            <TextView
+                android:id="@+id/event_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignRight="@+id/text_event_date"
+                android:layout_below="@+id/dzien_tyg"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoText="false"
+                android:background="#fafafa"
+                android:paddingBottom="4dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:selectAllOnFocus="false"
+                android:singleLine="false"
+                android:text="NZS PWr i Samorząd Studencki Politechniki Wrocławskiej połączyły siły, aby zorganizować dla Was wyjątkowe wydarzenie!  Rozpoczynamy poszukiwania królewskiej pary Politechniki Wrocławskiej! Jeżeli uważasz, że możesz podjąć walkę o ten prestiżowy tytuł, zgłoś się! Zwycięska para będzie reprezentować nasza uczelnię w konkursie na Króla i Królową pochodu juwenaliowego. Pokażmy, że PWr to nie tylko piękny umysł!  Zgłoszenia wysyłajcie na adres wybory.pwr.2014@gmail.com do końca kwietnia.  Regulamin konkursu: https://www.dropbox.com/s/fnf96btzvu3vrxj/regulamin.rtf  Formularz zgłoszeniowy: https://www.dropbox.com/s/c2rgeocyxy4kaeo/formularz.docx NZS PWr i Samorząd Studencki Politechniki Wrocławskiej połączyły siły, aby zorganizować dla Was wyjątkowe wydarzenie!  Rozpoczynamy poszukiwania królewskiej pary Politechniki Wrocławskiej! Jeżeli uważasz, że możesz podjąć walkę o ten prestiżowy tytuł, zgłoś się! Zwycięska para będzie reprezentować nasza uczelnię w konkursie na Króla i Królową pochodu juwenaliowego. Pokażmy, że PWr to nie tylko piękny umysł!  Zgłoszenia wysyłajcie na adres wybory.pwr.2014@gmail.com do końca kwietnia.  Regulamin konkursu: https://www.dropbox.com/s/fnf96btzvu3vrxj/regulamin.rtf  Formularz zgłoszeniowy: https://www.dropbox.com/s/c2rgeocyxy4kaeo/formularz.docx"
+                android:textColor="#1d1f33"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/dzien_tyg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_toLeftOf="@+id/text_event_date"
+                android:background="#000"
+                android:paddingBottom="6dp"
+                android:paddingLeft="19dp"
+                android:paddingRight="6dp"
+                android:paddingTop="6dp"
+                android:text="piątek, "
+                android:textColor="#ffffff"
+                android:textSize="27dp" />
+
+            <TextView
+                android:id="@+id/text_event_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:autoText="true"
+                android:background="#000"
+                android:paddingBottom="6dp"
+                android:paddingRight="6dp"
+                android:paddingTop="6dp"
+                android:text="23 kwietnia"
+                android:textColor="#ffffff"
+                android:textSize="27dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+     https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <!-- splash screen -->
+    <dimen name="splashscreen_logo_width">200sp</dimen>
+
+    <!-- login page -->
+    <dimen name="login_container_width">280sp</dimen>
+    <dimen name="login_label_font_size">15sp</dimen>
+    <dimen name="login_button_login_font_size">20sp</dimen>
+    <dimen name="login_button_skip_font_size">20sp</dimen>
+    <dimen name="login_margin">5sp</dimen>
+    <dimen name="login_button_skip_top_margin">15sp</dimen>
+</resources>

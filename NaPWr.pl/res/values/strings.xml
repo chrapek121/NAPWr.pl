@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">NA PWr</string>
+    <string name="title_section1">Wydarzenia</string>
+    <string name="title_section2">Plan Zajęć</string>
+    <string name="title_section3">Zapisane</string>
+    <string name="title_section4">Ustawienia</string>
+    <string name="title_section5">Wylogój</string>
+    <string name="title_section5_2">Zalogój</string>
+    <string name="title_section6">Zamknij</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Odśwież</string>
+    <string name="action_settings">Ustawienia</string>
+
+
+    <!-- login page -->
+    <string name="login_label_email">Login (e-mail):</string>
+    <string name="login_label_password">Hasło:</string>
+    <string name="login_button_login">Zaloguj</string>
+    <string name="login_button_skip">Kontynuuj jako niezalogowany</string>
+</resources>

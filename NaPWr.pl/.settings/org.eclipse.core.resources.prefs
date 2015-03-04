@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/pl/wroc/pwr/na/database/DataBaseHandler.java=UTF-8
+encoding//src/pl/wroc/pwr/na/database/objects/EventObject.java=UTF-8
+encoding//src/pl/wroc/pwr/na/events/EventActivity.java=UTF-8
+encoding//src/pl/wroc/pwr/na/events/MainActivity.java=UTF-8
+encoding//src/pl/wroc/pwr/na/fragments/ScheduleFragment.java=UTF-8
+encoding//src/pl/wroc/pwr/na/fragments/SettingsFragment.java=UTF-8
+encoding//src/pl/wroc/pwr/na/fragments/adapters/EventListAdapter.java=UTF-8
+encoding//src/pl/wroc/pwr/na/fragments/adapters/ScheduleAdapter.java=UTF-8
+encoding//src/pl/wroc/pwr/na/login/LoginActivity.java=UTF-8
+encoding//src/pl/wroc/pwr/na/menu/NavigationDrawerFragment.java=UTF-8
+encoding//src/pl/wroc/pwr/na/tools/EventPreparator.java=UTF-8
+encoding//src/pl/wroc/pwr/na/tools/PlanPreparator.java=UTF-8
